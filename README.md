@@ -9,7 +9,7 @@ The goal is to predict how many points each player will score in Cartola FC, the
 - `src/`: the same pipeline as Python scripts.
 
 ## Data
-- **Cartola FC (2018–2026)**: public dataset collected by the caRtola project, https://github.com/henriquepgomide/caRtola (MIT license). It is pinned to commit `639fd0569f826f998449b9c94c05cd2691f088bc`.
+- **Cartola FC (2018–2026)**: public dataset collected by the caRtola project, https://github.com/henriquepgomide/caRtola (MIT license). A fixed version of the repository is used, so the data do not change.
 - **Match results**: football-data.co.uk, https://www.football-data.co.uk/brazil.php (file `BRA.csv`). It is used only to identify home/away games and to validate the inferred opponents. Matches are cut at 2026-11-14, the date of the data used in this work, so the results can be reproduced.
 
 The data is not stored in this repository. It is downloaded to `data/raw` by the notebook or by `src/baixar_dados.py`.
